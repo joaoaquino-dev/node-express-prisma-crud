@@ -1,8 +1,4 @@
-Antes de gerar, uma observação rápida no back:
-Nenhuma rota tem try/catch. Se o Prisma lançar um erro, o servidor quebra sem resposta adequada. Não precisa resolver agora, mas anota pra uma próxima versão.
-Agora os READMEs e commits:
 
-README — Back (node-express-prisma-crud)
 markdown# node-express-prisma-crud
 
 API REST de cadastro de usuários desenvolvida com Node.js, Express e Prisma ORM.
