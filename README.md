@@ -1,5 +1,4 @@
 
-markdown# node-express-prisma-crud
 
 API REST de cadastro de usuários desenvolvida com Node.js, Express e Prisma ORM.
 
