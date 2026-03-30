@@ -34,7 +34,7 @@ app.put("/users/:id", async (req, res) => {
     },
   });
 
-  res.status(201).json(req.body);
+  res.status(200).json(req.body);
 });
 
 app.get("/users", async (req, res) => {
@@ -53,4 +53,5 @@ app.delete("/users/:id", async (req, res) => {
   res.status(200).json({ message: "Usuário apagado com sucesso!" });
 });
 
-app.listen(3000);
+const PORT = process.env.PORT || 3000;
+app.listen(PORT);
