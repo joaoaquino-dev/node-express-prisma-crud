@@ -1,4 +1,5 @@
-
+## API em produção
+🔗 `https://node-express-prisma-crud.onrender.com`
 
 API REST de cadastro de usuários desenvolvida com Node.js, Express e Prisma ORM.
 
@@ -7,7 +8,7 @@ API REST de cadastro de usuários desenvolvida com Node.js, Express e Prisma ORM
 - Node.js
 - Express
 - Prisma ORM
-- SQLite
+- MongoDB
 - dotenv
 - CORS
 
@@ -33,13 +34,13 @@ API REST de cadastro de usuários desenvolvida com Node.js, Express e Prisma ORM
 4. Rode as migrations
 
 ```bash
-   npx prisma migrate dev
+   npx prisma db push
 ```
 
 5. Inicie o servidor
 
 ```bash
-   node server.js
+   npm run start
 ```
 
 ## Requisição de exemplo
