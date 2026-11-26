@@ -1,16 +1,22 @@
 {
-  "name": "api",
+  "name": "node-express-prisma-crud",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API REST de cadastro de usuários com Node.js, Express, Prisma e MongoDB",
+  "main": "server.js",
   "scripts": {
     "build": "prisma generate",
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "check": "node --check server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nodejs",
+    "express",
+    "prisma",
+    "mongodb",
+    "rest-api"
+  ],
+  "author": "João Aquino",
+  "license": "MIT",
   "type": "module",
   "dependencies": {
     "@prisma/client": "^5.22.0",

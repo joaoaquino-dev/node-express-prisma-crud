@@ -7,6 +7,8 @@ Projeto de estudo, feito a partir de um curso e ajustado por mim para deploy em 
 🔗 **API em produção:** `https://node-express-prisma-crud.onrender.com`
 🖥️ **Interface que consome esta API:** [react-vite-crud](https://github.com/joaoaquino-dev/react-vite-crud)
 
+> **English:** Study REST API for user CRUD operations built with Node.js, Express, Prisma ORM, and MongoDB, deployed on Render. Detailed documentation below is in Portuguese.
+
 ## Tecnologias
 
 - Node.js
